@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions name="ArtistDetailInfoControllerImplService" targetNamespace="http://artistDetail.controller/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://artistDetail.controller/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+<xs:schema elementFormDefault="unqualified" targetNamespace="http://artistDetail.controller/" version="1.0" xmlns:tns="http://artistDetail.controller/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="getDetailInfoArtist" type="tns:getDetailInfoArtist" />
+<xs:element name="getDetailInfoArtistResponse" type="tns:getDetailInfoArtistResponse" />
+<xs:element name="getInfoArtist" type="tns:getInfoArtist" />
+<xs:element name="getInfoArtistResponse" type="tns:getInfoArtistResponse" />
+<xs:complexType name="getInfoArtist">
+<xs:sequence>
+<xs:element minOccurs="0" name="arg0" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getInfoArtistResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getDetailInfoArtist">
+<xs:sequence>
+<xs:element minOccurs="0" name="arg0" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getDetailInfoArtistResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getDetailInfoArtistResponse">
+    <wsdl:part element="tns:getDetailInfoArtistResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getInfoArtist">
+    <wsdl:part element="tns:getInfoArtist" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDetailInfoArtist">
+    <wsdl:part element="tns:getDetailInfoArtist" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getInfoArtistResponse">
+    <wsdl:part element="tns:getInfoArtistResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="ArtistDetailInfoControllerImpl">
+    <wsdl:operation name="getInfoArtist">
+      <wsdl:input message="tns:getInfoArtist" name="getInfoArtist">
+    </wsdl:input>
+      <wsdl:output message="tns:getInfoArtistResponse" name="getInfoArtistResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDetailInfoArtist">
+      <wsdl:input message="tns:getDetailInfoArtist" name="getDetailInfoArtist">
+    </wsdl:input>
+      <wsdl:output message="tns:getDetailInfoArtistResponse" name="getDetailInfoArtistResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ArtistDetailInfoControllerImplServiceSoapBinding" type="tns:ArtistDetailInfoControllerImpl">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getInfoArtist">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getInfoArtist">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getInfoArtistResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDetailInfoArtist">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetailInfoArtist">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetailInfoArtistResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ArtistDetailInfoControllerImplService">
+    <wsdl:port binding="tns:ArtistDetailInfoControllerImplServiceSoapBinding" name="ArtistDetailInfoControllerImplPort">
+      <soap:address location="http://localhost:8080/WS-CXF01/ArtistDetailInfoControllerImpl" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

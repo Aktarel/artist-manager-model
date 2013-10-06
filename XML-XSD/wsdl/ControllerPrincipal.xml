@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions name="ControllerPrincipalService" targetNamespace="http://controller/" xmlns:ns1="http://client/" xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://controller/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:import location="http://localhost:8080/WS-CXF01/ControllerPrincipal?wsdl=ControllerPrincipalService.wsdl" namespace="http://client/">
+    </wsdl:import>
+  <wsdl:binding name="ControllerPrincipalServiceSoapBinding" type="ns1:ControllerPrincipalService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getDetailArtistInfo">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetailArtistInfo">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetailArtistInfoResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rechercherInfoArtiste">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="rechercherInfoArtiste">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="rechercherInfoArtisteResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getArtist">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getArtist">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getArtistResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ControllerPrincipalService">
+    <wsdl:port binding="tns:ControllerPrincipalServiceSoapBinding" name="ControllerPrincipalPort">
+      <soap:address location="http://localhost:8080/WS-CXF01/ControllerPrincipal" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="lfm">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="images"/>
+      </xs:sequence>
+      <xs:attribute name="status" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="images">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="image"/>
+      </xs:sequence>
+      <xs:attribute name="artist" use="required" type="xs:NCName"/>
+      <xs:attribute name="page" use="required" type="xs:integer"/>
+      <xs:attribute name="perPage" use="required" type="xs:integer"/>
+      <xs:attribute name="total" use="required" type="xs:integer"/>
+      <xs:attribute name="totalPages" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="image">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title"/>
+        <xs:element ref="url"/>
+        <xs:element ref="dateadded"/>
+        <xs:element ref="format"/>
+        <xs:element minOccurs="0" ref="owner"/>
+        <xs:element ref="sizes"/>
+        <xs:element ref="votes"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="dateadded" type="xs:string"/>
+  <xs:element name="format" type="xs:NCName"/>
+  <xs:element name="owner">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="url"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name" type="xs:NCName"/>
+  <xs:element name="sizes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="size"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="size">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="height" use="required" type="xs:integer"/>
+          <xs:attribute name="name" use="required" type="xs:NCName"/>
+          <xs:attribute name="width" use="required" type="xs:integer"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="votes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="thumbsup"/>
+        <xs:element ref="thumbsdown"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="thumbsup" type="xs:integer"/>
+  <xs:element name="thumbsdown" type="xs:integer"/>
+  <xs:element name="url" type="xs:anyURI"/>
+</xs:schema>
