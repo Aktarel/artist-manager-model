@@ -10,6 +10,8 @@ import generatedTrack.Track;
 import java.net.URL;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.SortedSet;
+import java.util.concurrent.ConcurrentSkipListSet;
 
 import javax.ejb.Stateless;
 import javax.xml.bind.JAXBContext;
@@ -60,12 +62,12 @@ public class LastFMRestSearch implements LastFMRestService {
 		return maListeImage;
 	}
 
-	public Set<Piste> getPistesArtistes(String nom) {
+	public SortedSet<Piste> getPistesArtistes(String nom) {
 		{
 
 			Lfm lfm = null;
 			URL urlScrobbler;
-			Set<Piste> maListePiste = new HashSet<Piste>();
+			SortedSet<Piste> maListePiste = new ConcurrentSkipListSet<Piste>();
 
 			try {
 				urlScrobbler = new URL(
@@ -83,7 +85,9 @@ public class LastFMRestSearch implements LastFMRestService {
 						Piste maPiste = new Piste();
 						maPiste.setNom(unePiste.getName());
 						maPiste.setClassement(unePiste.getRank().intValue());
+						maPiste.setNbListeners(unePiste.getListeners());
 						maListePiste.add(maPiste);
+						
 
 					}
 				}
@@ -114,7 +118,7 @@ public class LastFMRestSearch implements LastFMRestService {
 					generatedArtistInfo.Bio.class);
 			Unmarshaller unmarcha = jctx.createUnmarshaller();
 			lfm = (generatedArtistInfo.Lfm) unmarcha.unmarshal(urlScrobbler);
-			artiste.setDescription(lfm.getArtist().getBio().getContent());
+			artiste.setDescription(lfm.getArtist().getBio().getSummary());
 			artiste.setNom(nom);
 			
 			for (Object objet : lfm.getArtist().getImageOrMbidOrName()) {
@@ -126,7 +130,7 @@ public class LastFMRestSearch implements LastFMRestService {
 				}
 			}
 			
-			Set<Piste> mesPistes = getPistesArtistes(nom);
+			SortedSet<Piste> mesPistes = getPistesArtistes(nom);
 			Set<modele.Image> mesImages = getImagesArtistes(nom);
 			
 			for(Piste p : mesPistes)

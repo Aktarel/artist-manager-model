@@ -3,6 +3,8 @@ package modele;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.SortedSet;
+import java.util.concurrent.ConcurrentSkipListSet;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -12,6 +14,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+
+import org.hibernate.annotations.Sort;
+import org.hibernate.annotations.SortType;
 
 @Entity
 public class Artiste implements Serializable {
@@ -32,7 +37,8 @@ public class Artiste implements Serializable {
 	private String description;
 
 	@OneToMany(mappedBy = "artiste", cascade = CascadeType.ALL,fetch=FetchType.EAGER)
-	private Set<Piste> listePiste = new HashSet<Piste>();
+	@Sort(type = SortType.NATURAL) 
+	private SortedSet<Piste> listePiste = new ConcurrentSkipListSet<Piste>();
 
 	@OneToMany(mappedBy = "artiste", cascade = CascadeType.ALL,fetch=FetchType.EAGER)
 	private Set<Image> listeImage = new HashSet<Image>();
@@ -81,11 +87,11 @@ public class Artiste implements Serializable {
 		this.listeImage = listeImage;
 	}
 
-	public Set<Piste> getListePiste() {
+	public SortedSet<Piste> getListePiste() {
 		return listePiste;
 	}
 
-	public void setListePiste(Set<Piste> listePiste) {
+	public void setListePiste(SortedSet<Piste> listePiste) {
 		this.listePiste = listePiste;
 	}
 

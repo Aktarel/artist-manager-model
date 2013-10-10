@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project basedir="../" default="compile">
+<project basedir="../" default="jar">
 
 
 
@@ -29,7 +29,43 @@
 		</copy> <jar destfile="${build.dir}/${appname}.aar"> <fileset dir="${build.dir}" 
 		> <include name="**/**"/> </fileset> </jar> </target> -->
 
-	<target name="jar" depends="compile">
+
+	<target name="compile" depends="create_delete">
+
+
+		<javac srcdir="${src.dir}" destdir="${build.dir}" debug="on"
+			deprecation="on" optimize="off" includes="**/**" excludes="client/*">
+
+			<classpath>
+				<pathelement
+					path="${basedir}\${appname}\lib/jboss-ejb-api_3.1_spec.jar" />
+				<pathelement
+					path="${basedir}\${appname}\lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
+				<pathelement path="${basedir}\${appname}\lib\antlr-2.7.6.jar" />
+				<pathelement
+					path="${basedir}\${appname}\lib\commons-collections-3.1.jar" />
+				<pathelement path="${basedir}\${appname}\lib\dom4j-1.6.1.jar" />
+				<pathelement
+					path="${basedir}\${appname}\lib/javassist-3.12.0.GA.jar" />
+				<pathelement path="${basedir}\${appname}\lib/jta-1.1.jar" />
+				<pathelement
+					path="${basedir}\${appname}\lib/slf4j-api-1.6.1.jar" />
+				<pathelement path="${basedir}\${appname}\lib\hibernate3.jar" />
+				<pathelement
+					path="C:\Users\nicolas\Desktop\JB6\lib\endorsed\jboss-jaxb-api_2.2_spec-1.0.3.Final.jar" />
+				<pathelement path="${basedir}\${appname}\resources\jndi.properties" />
+			</classpath>
+
+		</javac>
+		<copy todir="${build.dir}">
+			<fileset dir="${pathProjet}/META-INF">
+				<include name="jndi.properties" />
+			</fileset>
+		</copy>
+	</target>
+	
+	
+		<target name="jar" depends="compile">
 
 		<copy todir="${build.dir}">
 			<fileset dir="${pathProjet}/resources">
@@ -49,44 +85,6 @@
 			</fileset>
 
 		</jar>
-	</target>
-
-	<target name="compile" depends="create_delete">
-
-
-		<javac srcdir="${src.dir}" destdir="${build.dir}" debug="on"
-			deprecation="on" optimize="off" includes="**/**" excludes="client/*">
-
-			<classpath>
-				<pathelement
-					path="${jboss.install.dir}\client\jboss-ejb-api_3.1_spec.jar" />
-				<pathelement
-					path="${jboss.install.dir}\client\servlet\api\main\jboss-servlet-api_3.0.jar" />
-				<pathelement
-					path="${jboss.install.dir}\client\jbossall-client.jar" />
-				<pathelement
-					path="${basedir}\${appname}\lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
-				<pathelement path="${basedir}\${appname}\lib/required/antlr-2.7.6.jar" />
-				<pathelement
-					path="${basedir}\${appname}\lib/required/commons-collections-3.1.jar" />
-				<pathelement path="${basedir}\${appname}\lib/required/dom4j-1.6.1.jar" />
-				<pathelement
-					path="${basedir}\${appname}\lib/required/javassist-3.12.0.GA.jar" />
-				<pathelement path="${basedir}\${appname}\lib/required/jta-1.1.jar" />
-				<pathelement
-					path="${basedir}\${appname}\lib/required/slf4j-api-1.6.1.jar" />
-				<pathelement path="${basedir}\${appname}\lib\hibernate3.jar" />
-				<pathelement
-					path="C:\Users\nicolas\Desktop\JB6\lib\endorsed\jboss-jaxb-api_2.2_spec-1.0.3.Final.jar" />
-				<pathelement path="${basedir}\${appname}\resources\jndi.properties" />
-			</classpath>
-
-		</javac>
-		<copy todir="${build.dir}">
-			<fileset dir="${pathProjet}/META-INF">
-				<include name="jndi.properties" />
-			</fileset>
-		</copy>
 	</target>
 
 <!-- 	<target name="build-all" depends="jar">

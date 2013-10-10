@@ -1,6 +1,7 @@
 package modele;
 
 import java.io.Serializable;
+import java.math.BigInteger;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -11,7 +12,7 @@ import javax.persistence.ManyToOne;
 
 
 @Entity
-public class Piste  implements Serializable  {
+public class Piste  implements Serializable,Comparable<Piste>  {
 
 	/**
 	 * 
@@ -22,7 +23,9 @@ public class Piste  implements Serializable  {
 	private int idP;
 	private String nom;
 	private int classement;
-
+	private BigInteger nbListeners;
+	
+	
 	@ManyToOne(        fetch = FetchType.EAGER)
 	private Artiste artiste;
 	
@@ -82,10 +85,21 @@ public class Piste  implements Serializable  {
 
 
 
+	public BigInteger getNbListeners() {
+		return nbListeners;
+	}
 
 
 
+	public void setNbListeners(BigInteger nbListeners) {
+		this.nbListeners = nbListeners;
+	}
 
-	
-	
+	public int compareTo(Piste o) {
+		if(o.classement<this.classement)
+			return 1;
+		else{
+			return 0;
+		}
+	}
 }
