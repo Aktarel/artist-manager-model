@@ -24,7 +24,8 @@ public class Piste  implements Serializable,Comparable<Piste>  {
 	private String nom;
 	private int classement;
 	private BigInteger nbListeners;
-	
+	private BigInteger idDeezer;
+	private String urlPreview;
 	
 	@ManyToOne(        fetch = FetchType.EAGER)
 	private Artiste artiste;
@@ -101,5 +102,29 @@ public class Piste  implements Serializable,Comparable<Piste>  {
 		else{
 			return 0;
 		}
+	}
+
+
+
+	public BigInteger getIdDeezer() {
+		return idDeezer;
+	}
+
+
+
+	public void setIdDeezer(BigInteger bigInteger) {
+		this.idDeezer = bigInteger;
+	}
+
+
+
+	public String getUrlPreview() {
+		return urlPreview;
+	}
+
+
+
+	public void setUrlPreview(String urlPreview) {
+		this.urlPreview = urlPreview;
 	}
 }

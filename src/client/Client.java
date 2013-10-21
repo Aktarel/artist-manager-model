@@ -8,7 +8,7 @@ import javax.naming.NamingException;
 import javax.xml.bind.JAXBException;
 
 import modele.Artiste;
-import clientrest.LastFMRestService;
+import clientrest.lastFM.LastFMRestService;
 
 
 //insert into entite values ('ARTISTE',1,'Madonna','forte!',null,null)

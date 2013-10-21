@@ -1,6 +1,5 @@
 package modele;
 
-import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.SortedSet;
@@ -19,11 +18,11 @@ import org.hibernate.annotations.Sort;
 import org.hibernate.annotations.SortType;
 
 @Entity
-public class Artiste implements Serializable {
-
+public class Artiste{
 	/**
 	 * 
 	 */
+	@SuppressWarnings("unused")
 	private static final long serialVersionUID = 1L;
 
 	@Id
@@ -42,8 +41,10 @@ public class Artiste implements Serializable {
 
 	@OneToMany(mappedBy = "artiste", cascade = CascadeType.ALL,fetch=FetchType.EAGER)
 	private Set<Image> listeImage = new HashSet<Image>();
+	
+	@OneToMany(mappedBy="artiste",cascade=CascadeType.ALL,fetch=FetchType.EAGER)
+	private Set<Similaire> listeSimilaire = new HashSet<Similaire>();
 
-	private String similaires;
 
 	public Artiste(String nom, String description2) {
 		this.setNom(nom);
@@ -74,8 +75,7 @@ public class Artiste implements Serializable {
 
 		return "Artiste -> mon id est " + idA + " et mon nom est " + nom
 				+ " et mes photos sont a cette adresse: " + sb2.toString()
-				+ " \n " + "mes buzz : " + sb.toString() + " \n"
-				+ " mes similaires : " + similaires;
+				+ " \n " + "mes buzz : " + sb.toString() + " \n";
 
 	}
 
@@ -122,19 +122,14 @@ public class Artiste implements Serializable {
 		this.nom = nom;
 	}
 
-	public String getSimilaires() {
-		return similaires;
+	public void addSimilaire(Similaire similaire) {
+		this.listeSimilaire.add(similaire);
+	}
+	public Set<Similaire> getListeSimilaire() {
+		return listeSimilaire;
 	}
 
-	public void setSimilaires(String similaires) {
-		this.similaires = similaires;
-	}
-
-	public void appendSimilaire(String value) {
-		if (similaires == null) {
-			similaires = value;
-		} else {
-			similaires += " , "+value;
-		}
+	public void setListeSimilaire(Set<Similaire> listeSimilaire) {
+		this.listeSimilaire = listeSimilaire;
 	}
 }

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="readable"/>
+        <xs:element ref="title"/>
+        <xs:element ref="isrc"/>
+        <xs:element ref="link"/>
+        <xs:element ref="duration"/>
+        <xs:element ref="track_position"/>
+        <xs:element ref="disk_number"/>
+        <xs:element ref="rank"/>
+        <xs:element ref="explicit_lyrics"/>
+        <xs:element ref="preview"/>
+        <xs:element ref="bpm"/>
+        <xs:element ref="gain"/>
+        <xs:element ref="available_countries"/>
+        <xs:element ref="artist"/>
+        <xs:element ref="album"/>
+        <xs:element ref="type"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="readable" type="xs:integer"/>
+  <xs:element name="isrc" type="xs:NCName"/>
+  <xs:element name="duration" type="xs:integer"/>
+  <xs:element name="track_position" type="xs:integer"/>
+  <xs:element name="disk_number" type="xs:integer"/>
+  <xs:element name="rank" type="xs:integer"/>
+  <xs:element name="explicit_lyrics">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="preview" type="xs:anyURI"/>
+  <xs:element name="bpm" type="xs:decimal"/>
+  <xs:element name="gain" type="xs:decimal"/>
+  <xs:element name="available_countries">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="item" type="xs:NCName"/>
+  <xs:element name="artist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="name"/>
+        <xs:element ref="link"/>
+        <xs:element ref="picture"/>
+        <xs:element ref="radio"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="picture" type="xs:anyURI"/>
+  <xs:element name="radio" type="xs:integer"/>
+  <xs:element name="album">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="title"/>
+        <xs:element ref="link"/>
+        <xs:element ref="cover"/>
+        <xs:element ref="release_date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cover" type="xs:anyURI"/>
+  <xs:element name="release_date" type="xs:NMTOKEN"/>
+  <xs:element name="type" type="xs:NCName"/>
+  <xs:element name="id" type="xs:integer"/>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="link" type="xs:anyURI"/>
+</xs:schema>

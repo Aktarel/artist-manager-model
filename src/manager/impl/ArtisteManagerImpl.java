@@ -6,7 +6,8 @@ import javax.ejb.Stateful;
 import manager.GestionnaireRessource;
 import manager.Ressources;
 import modele.Artiste;
-import clientrest.LastFMRestService;
+import clientrest.deezer.DeezerRestService;
+import clientrest.lastFM.LastFMRestService;
 import dao.DAOArtistService;
 
 @Stateful
@@ -17,6 +18,9 @@ public class ArtisteManagerImpl implements GestionnaireRessource {
 	
 	@EJB
 	private LastFMRestService api;
+	
+	@EJB
+	private DeezerRestService apiDeezer;
 
 	public Object get(Ressources r,String param) {
 		if(r.equals(Ressources.artiste)){
@@ -25,11 +29,11 @@ public class ArtisteManagerImpl implements GestionnaireRessource {
 				return a;
 			}
 			else{
-				a =api.getDetailArtistInfo(param);
+				a = api.getDetailArtistInfo(param);
+				a = apiDeezer.getTrackStream(a);
 				unDaoArtiste.ajouterArtiste(a);
 				return a;
 			}
-		
 		}
 		else{
 			return "Erreur : je n'ai pas compris ce que vous recherchiez";

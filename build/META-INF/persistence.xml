@@ -8,6 +8,7 @@
       <class>modele.Artiste</class>
       <class>modele.Piste</class>
       <class>modele.Image</class>
+      <class>modele.Similaire</class>
         <properties>
          <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
          <property name="hibernate.hbm2ddl.auto" value="create"/>

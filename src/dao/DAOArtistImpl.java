@@ -7,10 +7,8 @@ import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
-import javax.persistence.criteria.SetJoin;
 
 import modele.Artiste;
-import modele.Image;
 
 @Stateless
 public class DAOArtistImpl implements DAOArtistService {
