@@ -7,6 +7,7 @@ import generatedTrack.Lfm;
 import generatedTrack.Toptracks;
 import generatedTrack.Track;
 
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.HashSet;
 import java.util.Set;
@@ -16,6 +17,7 @@ import java.util.concurrent.ConcurrentSkipListSet;
 import javax.ejb.Stateless;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
+import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
 import modele.Artiste;
@@ -24,15 +26,18 @@ import modele.Piste;
 @Stateless
 public class LastFMRestSearch implements LastFMRestService {
 
-	
+	public static int MAX_NB_IMAGE = 10;
+	public static int MAX_NB_PISTE = 20;
 
-	
 	public LastFMRestSearch() {
 	}
 
+	@Deprecated
+	// Abanddon de cette methode d'api depuis le : 21/08/2013
 	public Set<modele.Image> getImagesArtistes(String nom) {
 
 		generated.Lfm lfm = null;
+		int i = 0;
 		URL urlScrobbler;
 		Set<modele.Image> maListeImage = new HashSet<modele.Image>();
 
@@ -46,15 +51,25 @@ public class LastFMRestSearch implements LastFMRestService {
 			lfm = (generated.Lfm) unmarcha.unmarshal(urlScrobbler);
 
 			if (lfm.getImages().getTotal().intValue() != 0) {
-				for (Image mesImages : lfm.getImages().getImage()) {
-					modele.Image monImage = new modele.Image();
-					monImage.setUrl(mesImages.getSizes().getSize().get(0).getValue());
-					monImage.setDateAjoute(mesImages.getDateadded());
-					maListeImage.add(monImage);
+				itrationImages: for (Image mesImages : lfm.getImages()
+						.getImage()) {
+					if (i < MAX_NB_PISTE) {
+						modele.Image monImage = new modele.Image();
+						monImage.setUrl(mesImages.getSizes().getSize().get(0)
+								.getValue());
+						monImage.setDateAjoute(mesImages.getDateadded());
+						maListeImage.add(monImage);
+						i++;
+					} else {
+						break itrationImages;
+					}
 				}
 			}
 
-		} catch (Exception e) {
+		} catch (JAXBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -68,6 +83,7 @@ public class LastFMRestSearch implements LastFMRestService {
 			Lfm lfm = null;
 			URL urlScrobbler;
 			SortedSet<Piste> maListePiste = new ConcurrentSkipListSet<Piste>();
+			int i = 0;
 
 			try {
 				urlScrobbler = new URL(
@@ -80,20 +96,23 @@ public class LastFMRestSearch implements LastFMRestService {
 				lfm = (Lfm) unmarcha.unmarshal(urlScrobbler);
 
 				if (lfm.getToptracks().getTotal().intValue() != 0) {
-					for (Track unePiste : lfm.getToptracks().getTrack()) {
-
-						Piste maPiste = new Piste();
-						maPiste.setNom(unePiste.getName());
-						maPiste.setClassement(unePiste.getRank().intValue());
-						maPiste.setNbListeners(unePiste.getListeners());
-						maListePiste.add(maPiste);
-						
-
+					itrationPistes: for (Track unePiste : lfm.getToptracks()
+							.getTrack()) {
+						if (i < MAX_NB_PISTE) {
+							Piste maPiste = new Piste();
+							maPiste.setNom(unePiste.getName());
+							maPiste.setClassement(unePiste.getRank().intValue());
+							maPiste.setNbListeners(unePiste.getListeners());
+							maListePiste.add(maPiste);
+							i++;
+						} else {
+							break itrationPistes;
+						}
 					}
 				}
-
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
+			} catch (JAXBException e) {
+				e.printStackTrace();
+			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
 
@@ -102,12 +121,14 @@ public class LastFMRestSearch implements LastFMRestService {
 
 	}
 
+	@SuppressWarnings("rawtypes")
 	public modele.Artiste getDetailArtistInfo(String nom) {
 
 		generatedArtistInfo.Lfm lfm = null;
 		URL urlScrobbler;
 		Artiste artiste = new Artiste();
-
+		Set<modele.Image> mesImages = new HashSet<modele.Image>();
+		
 		try {
 			urlScrobbler = new URL(
 					"http://ws.audioscrobbler.com/2.0/?method=artist.getInfo&artist="
@@ -120,32 +141,40 @@ public class LastFMRestSearch implements LastFMRestService {
 			lfm = (generatedArtistInfo.Lfm) unmarcha.unmarshal(urlScrobbler);
 			artiste.setDescription(lfm.getArtist().getBio().getSummary());
 			artiste.setNom(nom);
-			
-			for (Object objet : lfm.getArtist().getImageOrMbidOrName()) {
-				if (objet.getClass().equals(Similar.class)) {
-					Similar s = (Similar) objet;
-					for(generatedArtistInfo.Artist a : s.getArtist()){
-						artiste.appendSimilaire(((JAXBElement)a.getImageOrMbidOrName().get(0)).getValue().toString());
+
+			if (lfm.getStatus() != "failed") {
+				for (Object objet : lfm.getArtist().getImageOrMbidOrName()) {
+					if (objet.getClass().equals(Similar.class)) {
+						Similar s = (Similar) objet;
+						for (generatedArtistInfo.Artist a : s.getArtist()) {
+							artiste.appendSimilaire(((JAXBElement) a
+									.getImageOrMbidOrName().get(0)).getValue()
+									.toString());
+						}
+					}
+					if(objet.getClass().equals(generatedArtistInfo.Artist.class)){
+						generatedArtistInfo.Artist a = (generatedArtistInfo.Artist)objet;
+						JAXBElement elemXml = ((JAXBElement)a.getImageOrMbidOrName().get(3));
+						modele.Image img = (modele.Image)elemXml.getValue();
+						mesImages.add(img);
 					}
 				}
 			}
 			
 			SortedSet<Piste> mesPistes = getPistesArtistes(nom);
-			Set<modele.Image> mesImages = getImagesArtistes(nom);
-			
-			for(Piste p : mesPistes)
+			//Set<modele.Image> mesImages = getImagesArtistes(nom);
+
+			for (Piste p : mesPistes)
 				p.setArtiste(artiste);
-			for(modele.Image i : mesImages)
+			for (modele.Image i : mesImages)
 				i.setArtiste(artiste);
-			
+
 			artiste.setListePiste(mesPistes);
 			artiste.setListeImage(mesImages);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
-		
-		
 		return artiste;
 	}
 
