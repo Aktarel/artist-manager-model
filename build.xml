@@ -50,6 +50,8 @@
 				<pathelement path="${basedir}\${appname}\lib/jta-1.1.jar" />
 				<pathelement
 					path="${basedir}\${appname}\lib/slf4j-api-1.6.1.jar" />
+				<pathelement
+					path="${basedir}\${appname}\lib/log4j-1.2.17.jar" />
 				<pathelement path="${basedir}\${appname}\lib\hibernate3.jar" />
 				<pathelement
 					path="C:\Users\nicolas\Desktop\JB6\lib\endorsed\jboss-jaxb-api_2.2_spec-1.0.3.Final.jar" />

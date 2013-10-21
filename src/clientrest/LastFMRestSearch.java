@@ -23,12 +23,16 @@ import javax.xml.bind.Unmarshaller;
 import modele.Artiste;
 import modele.Piste;
 
+import org.apache.log4j.Logger;
+
 @Stateless
 public class LastFMRestSearch implements LastFMRestService {
 
 	public static int MAX_NB_IMAGE = 10;
 	public static int MAX_NB_PISTE = 20;
 
+	Logger log = Logger.getLogger(LastFMRestSearch.class);
+	
 	public LastFMRestSearch() {
 	}
 
@@ -143,6 +147,13 @@ public class LastFMRestSearch implements LastFMRestService {
 			artiste.setNom(nom);
 
 			if (lfm.getStatus() != "failed") {
+				
+				generatedArtistInfo.Artist currentArtist = (generatedArtistInfo.Artist) lfm.getArtist();
+				generatedArtistInfo.Image img = ((generatedArtistInfo.Image)currentArtist.getImageOrMbidOrName().get(7));
+				
+				//log.error("IMG : "+img.getValue());
+				mesImages.add( new modele.Image(img.getValue()));
+				
 				for (Object objet : lfm.getArtist().getImageOrMbidOrName()) {
 					if (objet.getClass().equals(Similar.class)) {
 						Similar s = (Similar) objet;
@@ -151,12 +162,6 @@ public class LastFMRestSearch implements LastFMRestService {
 									.getImageOrMbidOrName().get(0)).getValue()
 									.toString());
 						}
-					}
-					if(objet.getClass().equals(generatedArtistInfo.Artist.class)){
-						generatedArtistInfo.Artist a = (generatedArtistInfo.Artist)objet;
-						JAXBElement elemXml = ((JAXBElement)a.getImageOrMbidOrName().get(3));
-						modele.Image img = (modele.Image)elemXml.getValue();
-						mesImages.add(img);
 					}
 				}
 			}
