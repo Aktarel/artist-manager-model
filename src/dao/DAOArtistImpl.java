@@ -3,6 +3,7 @@ package dao;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.RollbackException;
 import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
@@ -44,9 +45,7 @@ public class DAOArtistImpl implements DAOArtistService {
 		try {
 			em.persist(unArtiste);
 			return true;
-
-		} catch (Exception e) {
-
+		} catch (RollbackException e) {
 			return false;
 		}
 

@@ -31,12 +31,18 @@ public class ArtisteManagerImpl implements GestionnaireRessource {
 			else{
 				a = api.getDetailArtistInfo(param);
 				a = apiDeezer.getTrackStream(a);
-				unDaoArtiste.ajouterArtiste(a);
-				return a;
+				if(a != null){
+					unDaoArtiste.ajouterArtiste(a);
+					return a;
+				}
+				else{
+					return null;
+				}
 			}
 		}
 		else{
 			return "Erreur : je n'ai pas compris ce que vous recherchiez";
 		}
+		
 	}
 }
