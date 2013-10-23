@@ -27,7 +27,7 @@ public class Piste  implements Serializable,Comparable<Piste>  {
 	private BigInteger idDeezer;
 	private String urlPreview;
 	
-	@ManyToOne(        fetch = FetchType.EAGER)
+	@ManyToOne(fetch = FetchType.EAGER)
 	private Artiste artiste;
 	
 	public Piste() {

@@ -19,8 +19,6 @@ import javax.xml.bind.Unmarshaller;
 import modele.Artiste;
 import modele.Piste;
 
-//http://api.deezer.com/track/3135556?output=xml
-//http://api.deezer.com/search?q=eminem?output=xml
 @Stateless
 public class DeezerRestSearchImpl implements DeezerRestService {
 
