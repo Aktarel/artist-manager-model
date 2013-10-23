@@ -1,0 +1,2405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<events artist="Cher" festivalsonly="0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" page="1" perPage="50" totalPages="1" total="49">
+    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3698579</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8813729</id>
+    <name>US Airways Center</name>
+    <location>
+      <city>Phoenix</city>
+      <country>United States</country>
+      <street>201 East Jefferson Street</street>
+      <postalcode>85004</postalcode>
+      <geo:point>
+         <geo:lat>33.44605</geo:lat>
+         <geo:long>-112.070615</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8813729+US+Airways+Center</url>
+    <website>http://usairwayscenter.tumblr.com</website>
+    <phonenumber>602-379-7800</phonenumber>
+    <image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<image size="extralarge"></image>
+	<image size="mega"></image>
+  </venue>    <startDate>Sat, 22 Mar 2014 19:26:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>3</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3698579</tag>    
+  <url>http://www.last.fm/event/3698579+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3698590</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8782020</id>
+    <name>Toyota Center</name>
+    <location>
+      <city>Houston</city>
+      <country>United States</country>
+      <street>1510 Polk Street</street>
+      <postalcode>77002</postalcode>
+      <geo:point>
+         <geo:lat>29.750958</geo:lat>
+         <geo:long>-95.362017</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8782020+Toyota+Center</url>
+    <website>http://www.houstontoyotacenter.com/</website>
+    <phonenumber>1-866-446-8849</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/45305243.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/45305243.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/45305243.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/45305243.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/45305243/Toyota+Center+Houston_Toyota_Center_.jpg</image>
+  </venue>    <startDate>Mon, 24 Mar 2014 19:51:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3698590</tag>    
+  <url>http://www.last.fm/event/3698590+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>pop</tag>
+      <tag>dance</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3698593</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8780882</id>
+    <name>American Airlines Center</name>
+    <location>
+      <city>Dallas</city>
+      <country>United States</country>
+      <street>2500 Victory Avenue</street>
+      <postalcode>75219</postalcode>
+      <geo:point>
+         <geo:lat>32.790442</geo:lat>
+         <geo:long>-96.810159</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8780882+American+Airlines+Center</url>
+    <website>http://americanairlinescenterdallas.tumblr.com</website>
+    <phonenumber>214-222-3687</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/201091.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/201091.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/201091.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/201091.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/201091/American+Airlines+Center.jpg</image>
+  </venue>    <startDate>Wed, 26 Mar 2014 19:52:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3698593</tag>    
+  <url>http://www.last.fm/event/3698593+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704430</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>9062580</id>
+    <name>Verizon Arena</name>
+    <location>
+      <city>North Little Rock, AR</city>
+      <country>United States</country>
+      <street>1 Verizon Arena Way</street>
+      <postalcode>72114</postalcode>
+      <geo:point>
+         <geo:lat>34.74467</geo:lat>
+         <geo:long>-92.274979</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/9062580+Verizon+Arena</url>
+    <website>http://www.verizonarena.com/</website>
+    <phonenumber>5019759000</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/82804611.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/82804611.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/82804611.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/82804611.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/82804611/Verizon+Arena.jpg</image>
+  </venue>    <startDate>Fri, 28 Mar 2014 16:28:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704430</tag>    
+  <url>http://www.last.fm/event/3704430+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704431</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8956282</id>
+    <name>BOK Center</name>
+    <location>
+      <city>Tulsa OK</city>
+      <country>United States</country>
+      <street>200 S Denver Ave</street>
+      <postalcode>74103</postalcode>
+      <geo:point>
+         <geo:lat>36.153145</geo:lat>
+         <geo:long>-95.995134</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8956282+BOK+Center</url>
+    <website>http://bokcenter.tumblr.com</website>
+    <phonenumber>918.596.7177</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/9602209.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/9602209.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/9602209.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/9602209.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/9602209/BOK+Center+800pxBokcenter20080810.jpg</image>
+  </venue>    <startDate>Sat, 29 Mar 2014 16:29:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704431</tag>    
+  <url>http://www.last.fm/event/3704431+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3703850</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>9128050</id>
+    <name>Bridgestone Arena</name>
+    <location>
+      <city>Nashville</city>
+      <country>United States</country>
+      <street>501 Broadway</street>
+      <postalcode>37203</postalcode>
+      <geo:point>
+         <geo:lat>36.15913</geo:lat>
+         <geo:long>-86.778492</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/9128050+Bridgestone+Arena</url>
+    <website>http://bridgestonearena.tumblr.com</website>
+    <phonenumber>615.770.2000</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/64994496.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/64994496.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/64994496.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/64994496.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/64994496/Bridgestone+Arena+bridgestonearena.jpg</image>
+  </venue>    <startDate>Mon, 31 Mar 2014 19:30:00</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3703850</tag>    
+  <url>http://www.last.fm/event/3703850+Dressed+To+Kill+Tour</url>
+  <website>http://www.ticketmaster.com/cher-dressed-to-kill-tour-nashville-tennessee-03-31-2014/event/1B004B39C9068378</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704435</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10227012</id>
+    <name>CONSOL Energy Center</name>
+    <location>
+      <city>Pittsburgh</city>
+      <country>United States</country>
+      <street>1001 Fifth Ave</street>
+      <postalcode>15219</postalcode>
+      <geo:point>
+         <geo:lat>40.439879</geo:lat>
+         <geo:long>-79.988854</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10227012+CONSOL+Energy+Center</url>
+    <website>http://consolenergycenter.tumblr.com</website>
+    <phonenumber>(412) 642-1800</phonenumber>
+    <image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<image size="extralarge"></image>
+	<image size="mega"></image>
+  </venue>    <startDate>Wed, 02 Apr 2014 16:31:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704435</tag>    
+  <url>http://www.last.fm/event/3704435+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704436</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8785557</id>
+    <name>Verizon Center</name>
+    <location>
+      <city>Washington DC</city>
+      <country>United States</country>
+      <street>601 F Street, NW</street>
+      <postalcode>20004</postalcode>
+      <geo:point>
+         <geo:lat>38.898047</geo:lat>
+         <geo:long>-77.020922</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8785557+Verizon+Center</url>
+    <website>http://www.verizoncenter.com/</website>
+    <phonenumber>(202) 628-3200</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/42338.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/42338.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/42338.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/42338.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/42338/Verizon+Center.jpg</image>
+  </venue>    <startDate>Fri, 04 Apr 2014 16:32:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704436</tag>    
+  <url>http://www.last.fm/event/3704436+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704438</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8824273</id>
+    <name>Mohegan Sun Arena</name>
+    <location>
+      <city>Uncasville, CT</city>
+      <country>United States</country>
+      <street>1 Mohegan Sun Boulevard</street>
+      <postalcode>06382</postalcode>
+      <geo:point>
+         <geo:lat>41.49039</geo:lat>
+         <geo:long>-72.093172</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8824273+Mohegan+Sun+Arena</url>
+    <website>http://www.mohegansunarena.net/</website>
+    <phonenumber>888.777.7922</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/602002.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/602002.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/602002.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/602002.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/602002/Mohegan+Sun+Arena.jpg</image>
+  </venue>    <startDate>Sat, 05 Apr 2014 16:33:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704438</tag>    
+  <url>http://www.last.fm/event/3704438+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3697552</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8781753</id>
+    <name>Air Canada Centre</name>
+    <location>
+      <city>Toronto</city>
+      <country>Canada</country>
+      <street>40 Bay St</street>
+      <postalcode>M5J 2X2</postalcode>
+      <geo:point>
+         <geo:lat>43.643929</geo:lat>
+         <geo:long>-79.379305</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8781753+Air+Canada+Centre</url>
+    <website>http://aircanadacentreconcerts.tumblr.com</website>
+    <phonenumber>416-815-5500</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/206057.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/206057.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/206057.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/206057.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/206057/Air+Canada+Centre.jpg</image>
+  </venue>    <startDate>Mon, 07 Apr 2014 19:30:00</startDate>
+  <description><![CDATA[<div class="bbcode">CA $41.50 (CA $25.75 Ticket + CA $15.75 Fees)<br />CA $172.00 (CA $156.25 Ticket + CA $15.75 Fees)<br /><br />Onsale to General Public<br />Start: Fri, 10/04/13 12:00 PM EDT<br /><br />Facebook Presale<br />Start: Wed, 10/02/13 10:00 AM EDT<br />End: Thu, 10/03/13 10:00 PM EDT<br /><br />VIP Package Presale<br />Start: Wed, 10/02/13 10:00 AM EDT<br />End: Thu, 10/03/13 10:00 PM EDT<br /><br />Venue / Radio Presale<br />Start: Thu, 10/03/13 10:00 AM EDT<br />End: Thu, 10/03/13 10:00 PM EDT<br /><br />VIP Package Offers<br />Start: Fri, 10/04/13 12:00 PM EDT<br />End: Mon, 03/17/14 05:00 PM EDT</div>]]></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>4</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3697552</tag>    
+  <url>http://www.last.fm/event/3697552+Dressed+To+Kill+Tour</url>
+  <website>http://www.ticketmaster.ca/event/10004B33DF0CB1D3</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704439</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10231978</id>
+    <name>TD Garden</name>
+    <location>
+      <city>Boston</city>
+      <country>United States</country>
+      <street>100 Legends Way</street>
+      <postalcode>02114</postalcode>
+      <geo:point>
+         <geo:lat>42.36526</geo:lat>
+         <geo:long>-71.06174</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10231978+TD+Garden</url>
+    <website>http://www.tdgarden.com/</website>
+    <phonenumber>617.931.2000</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/93505861.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/93505861.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/93505861.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/93505861.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/93505861/TD+Garden+tdgarden.jpg</image>
+  </venue>    <startDate>Wed, 09 Apr 2014 16:36:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704439</tag>    
+  <url>http://www.last.fm/event/3704439+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704441</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10235840</id>
+    <name>Bankers Life Fieldhouse</name>
+    <location>
+      <city>Indianapolis</city>
+      <country>United States</country>
+      <street>125 S. Pennsylvania Street</street>
+      <postalcode>46204</postalcode>
+      <geo:point>
+         <geo:lat>39.764678</geo:lat>
+         <geo:long>-86.156064</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10235840+Bankers+Life+Fieldhouse</url>
+    <website>http://bankerslifefieldhouse.tumblr.com</website>
+    <phonenumber>(317) 917-2727</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/78732621.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/78732621.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/78732621.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/78732621.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/78732621/Bankers+Life+Fieldhouse+BankersLifeFieldhouse.jpg</image>
+  </venue>    <startDate>Fri, 11 Apr 2014 16:37:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704441</tag>    
+  <url>http://www.last.fm/event/3704441+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704447</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8784073</id>
+    <name>Joe Louis Arena</name>
+    <location>
+      <city>Detroit</city>
+      <country>United States</country>
+      <street>600 Civic Center Drive</street>
+      <postalcode>48226</postalcode>
+      <geo:point>
+         <geo:lat>42.325748</geo:lat>
+         <geo:long>-83.052624</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8784073+Joe+Louis+Arena</url>
+    <website>http://www.olympiaentertainment.com/venues/joelouisarena.jsp</website>
+    <phonenumber></phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/341812.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/341812.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/341812.png</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/341812.png</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/341812/Joe+Louis+Arena.png</image>
+  </venue>    <startDate>Sat, 12 Apr 2014 16:40:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704447</tag>    
+  <url>http://www.last.fm/event/3704447+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704450</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>9217318</id>
+    <name>First Niagara Center</name>
+    <location>
+      <city>Buffalo</city>
+      <country>United States</country>
+      <street>One Seymour H. Knox III Plaza</street>
+      <postalcode>14203</postalcode>
+      <geo:point>
+         <geo:lat>42.875204</geo:lat>
+         <geo:long>-78.876392</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/9217318+First+Niagara+Center</url>
+    <website>http://www.firstniagaracenter.com/</website>
+    <phonenumber>(716) 855-4444</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/85351329.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/85351329.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/85351329.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/85351329.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/85351329/First+Niagara+Center+1firstniagaracentermichaelfran.jpg</image>
+  </venue>    <startDate>Wed, 23 Apr 2014 16:41:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704450</tag>    
+  <url>http://www.last.fm/event/3704450+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704452</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8781188</id>
+    <name>Centre Bell</name>
+    <location>
+      <city></city>
+      <country>Canada</country>
+      <street>1260 De la Gauchetière Ouest</street>
+      <postalcode>H4B 5G0</postalcode>
+      <geo:point>
+         <geo:lat>45.496193</geo:lat>
+         <geo:long>-73.570882</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8781188+Centre+Bell</url>
+    <website>http://centrebell.tumblr.com</website>
+    <phonenumber>(514) 790-1245</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/52825.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/52825.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/52825.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/52825.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/52825/Centre+Bell.jpg</image>
+  </venue>    <startDate>Fri, 25 Apr 2014 16:42:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704452</tag>    
+  <url>http://www.last.fm/event/3704452+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704453</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10318051</id>
+    <name>Canadian Tire Centre</name>
+    <location>
+      <city>Ottawa</city>
+      <country>Canada</country>
+      <street>1000 Palladium Dr</street>
+      <postalcode>K2V 1A5</postalcode>
+      <geo:point>
+         <geo:lat>45.29349</geo:lat>
+         <geo:long>-75.929436</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10318051+Canadian+Tire+Centre</url>
+    <website>http://scottradecenter.tumblr.com</website>
+    <phonenumber>(613) 599-0100</phonenumber>
+    <image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<image size="extralarge"></image>
+	<image size="mega"></image>
+  </venue>    <startDate>Sat, 26 Apr 2014 16:43:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>2</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704453</tag>    
+  <url>http://www.last.fm/event/3704453+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704454</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>9144833</id>
+    <name>Wells Fargo Center</name>
+    <location>
+      <city>Philadelphia</city>
+      <country>United States</country>
+      <street>3601 S. Broad St.</street>
+      <postalcode>19148</postalcode>
+      <geo:point>
+         <geo:lat>39.950087</geo:lat>
+         <geo:long>-75.163994</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/9144833+Wells+Fargo+Center</url>
+    <website>http://wellsfargocenter.tumblr.com</website>
+    <phonenumber>1-800-298-4200</phonenumber>
+    <image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<image size="extralarge"></image>
+	<image size="mega"></image>
+  </venue>    <startDate>Mon, 28 Apr 2014 16:44:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704454</tag>    
+  <url>http://www.last.fm/event/3704454+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704457</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8784707</id>
+    <name>Nationwide Arena</name>
+    <location>
+      <city>Columbus</city>
+      <country>United States</country>
+      <street>200 West Nationwide Blvd.</street>
+      <postalcode>43215</postalcode>
+      <geo:point>
+         <geo:lat>39.969406</geo:lat>
+         <geo:long>-83.006206</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8784707+Nationwide+Arena</url>
+    <website>http://nationwidearena.tumblr.com</website>
+    <phonenumber>614-246-2000</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/572308.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/572308.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/572308.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/572308.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/572308/Nationwide+Arena.jpg</image>
+  </venue>    <startDate>Wed, 30 Apr 2014 16:46:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704457</tag>    
+  <url>http://www.last.fm/event/3704457+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704459</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8785346</id>
+    <name>Quicken Loans Arena</name>
+    <location>
+      <city>Cleveland</city>
+      <country>United States</country>
+      <street>1 Center Court</street>
+      <postalcode>44115</postalcode>
+      <geo:point>
+         <geo:lat>41.496942</geo:lat>
+         <geo:long>-81.689293</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8785346+Quicken+Loans+Arena</url>
+    <website>http://quickenloansarena.tumblr.com</website>
+    <phonenumber></phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/33302447.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/33302447.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/33302447.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/33302447.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/33302447/Quicken+Loans+Arena+QuickenLoansArenaAwesomeview.jpg</image>
+  </venue>    <startDate>Fri, 02 May 2014 16:47:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704459</tag>    
+  <url>http://www.last.fm/event/3704459+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704460</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8930518</id>
+    <name>Time Warner Cable Arena</name>
+    <location>
+      <city>Charlotte</city>
+      <country>United States</country>
+      <street>333 East Trade Street</street>
+      <postalcode>28202</postalcode>
+      <geo:point>
+         <geo:lat>35.225078</geo:lat>
+         <geo:long>-80.839226</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8930518+Time+Warner+Cable+Arena</url>
+    <website>http://www.timewarnercablearena.com</website>
+    <phonenumber>704-688-9000</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/75489498.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75489498.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75489498.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/75489498.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/75489498/Time+Warner+Cable+Arena.jpg</image>
+  </venue>    <startDate>Mon, 05 May 2014 16:48:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704460</tag>    
+  <url>http://www.last.fm/event/3704460+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704461</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10276803</id>
+    <name>PNC Arena</name>
+    <location>
+      <city>Raleigh, NC</city>
+      <country>United States</country>
+      <street>1400 Edwards Mill Rd</street>
+      <postalcode>27607</postalcode>
+      <geo:point>
+         <geo:lat>35.803379</geo:lat>
+         <geo:long>-78.721923</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10276803+PNC+Arena</url>
+    <website>http://pncarena.tumblr.com</website>
+    <phonenumber>(919) 861-2300</phonenumber>
+    <image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<image size="extralarge"></image>
+	<image size="mega"></image>
+  </venue>    <startDate>Wed, 07 May 2014 16:49:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704461</tag>    
+  <url>http://www.last.fm/event/3704461+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704462</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10252156</id>
+    <name>Barclays Center</name>
+    <location>
+      <city>Brooklyn</city>
+      <country>United States</country>
+      <street>620 Atlantic Avenue</street>
+      <postalcode>11217</postalcode>
+      <geo:point>
+         <geo:lat>40.683267</geo:lat>
+         <geo:long>-73.976188</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10252156+Barclays+Center</url>
+    <website>http://barclayscenterconcerts.tumblr.com</website>
+    <phonenumber></phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/85492483.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/85492483.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/85492483.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/85492483.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/85492483/Barclays+Center+Barclays_Cemter_Brooklyn.jpg</image>
+  </venue>    <startDate>Fri, 09 May 2014 16:50:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>4</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704462</tag>    
+  <url>http://www.last.fm/event/3704462+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3703962</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8901661</id>
+    <name>Izod Center</name>
+    <location>
+      <city>East Rutherford, NJ</city>
+      <country>United States</country>
+      <street>50 State Route 120</street>
+      <postalcode>07073</postalcode>
+      <geo:point>
+         <geo:lat>40.811601</geo:lat>
+         <geo:long>-74.06785</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8901661+Izod+Center</url>
+    <website>http://www.meadowlands.com</website>
+    <phonenumber>(800) 601-3804</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/8576085.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/8576085.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/8576085.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/8576085.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/8576085/Izod+Center+arenaPic.jpg</image>
+  </venue>    <startDate>Sat, 10 May 2014 20:00:00</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3703962</tag>    
+  <url>http://www.last.fm/event/3703962+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704464</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8804206</id>
+    <name>Philips Arena</name>
+    <location>
+      <city>Atlanta</city>
+      <country>United States</country>
+      <street>1 Philips Dr</street>
+      <postalcode>30303</postalcode>
+      <geo:point>
+         <geo:lat>33.759205</geo:lat>
+         <geo:long>-84.399076</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8804206+Philips+Arena</url>
+    <website>http://philipsarena.tumblr.com</website>
+    <phonenumber>404-878-3000</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/502252.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/502252.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/502252.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/502252.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/502252/Philips+Arena.jpg</image>
+  </venue>    <startDate>Mon, 12 May 2014 16:51:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704464</tag>    
+  <url>http://www.last.fm/event/3704464+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704466</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8844731</id>
+    <name>Jacksonville Veterans Memorial Arena</name>
+    <location>
+      <city>Jacksonville</city>
+      <country>United States</country>
+      <street>300 A. Philip Randolph Blvd</street>
+      <postalcode>32202</postalcode>
+      <geo:point>
+         <geo:lat>30.324841</geo:lat>
+         <geo:long>-81.645145</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8844731+Jacksonville+Veterans+Memorial+Arena</url>
+    <website></website>
+    <phonenumber>(904) 630-3900</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/514602.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/514602.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/514602.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/514602.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/514602/Jacksonville+Veterans+Memorial+Arena.jpg</image>
+  </venue>    <startDate>Wed, 14 May 2014 16:52:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704466</tag>    
+  <url>http://www.last.fm/event/3704466+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704468</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>9126649</id>
+    <name>Amway Center</name>
+    <location>
+      <city>Orlando</city>
+      <country>United States</country>
+      <street>400 West Church Street</street>
+      <postalcode>32801</postalcode>
+      <geo:point>
+         <geo:lat>28.540163</geo:lat>
+         <geo:long>-81.384587</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/9126649+Amway+Center</url>
+    <website>http://amwaycenterconcerts.tumblr.com</website>
+    <phonenumber>4078492020</phonenumber>
+    <image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<image size="extralarge"></image>
+	<image size="mega"></image>
+  </venue>    <startDate>Fri, 16 May 2014 16:53:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704468</tag>    
+  <url>http://www.last.fm/event/3704468+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704470</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10279563</id>
+    <name>The BB&amp;T Center</name>
+    <location>
+      <city>Sunrise</city>
+      <country>United States</country>
+      <street>1 Panther Pkwy</street>
+      <postalcode>33323</postalcode>
+      <geo:point>
+         <geo:lat>26.159595</geo:lat>
+         <geo:long>-80.325489</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10279563+The+BB%2526T+Center</url>
+    <website>http://www.thebbtcenter.com/</website>
+    <phonenumber>(954) 835-7000</phonenumber>
+    <image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<image size="extralarge"></image>
+	<image size="mega"></image>
+  </venue>    <startDate>Sat, 17 May 2014 16:56:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704470</tag>    
+  <url>http://www.last.fm/event/3704470+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3698617</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8781567</id>
+    <name>MGM Grand Garden Arena</name>
+    <location>
+      <city>Las Vegas</city>
+      <country>United States</country>
+      <street>3799 Las Vegas Boulevard South</street>
+      <postalcode>89109</postalcode>
+      <geo:point>
+         <geo:lat>36.10168</geo:lat>
+         <geo:long>-115.168487</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8781567+MGM+Grand+Garden+Arena</url>
+    <website>http://mgmgrandgardenarena.tumblr.com</website>
+    <phonenumber>702-891-7777</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/49747979.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/49747979.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/49747979.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/49747979.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/49747979/MGM+Grand+Garden+Arena+MGMGRANDGARDEN3.jpg</image>
+  </venue>    <startDate>Sun, 25 May 2014 20:18:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>2</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3698617</tag>    
+  <url>http://www.last.fm/event/3698617+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704472</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8782017</id>
+    <name>Pepsi Center</name>
+    <location>
+      <city>Denver</city>
+      <country>United States</country>
+      <street>1000 Chopper Circle</street>
+      <postalcode>80204</postalcode>
+      <geo:point>
+         <geo:lat>39.74799</geo:lat>
+         <geo:long>-105.007367</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8782017+Pepsi+Center</url>
+    <website>http://pepsicenter.tumblr.com</website>
+    <phonenumber>(303) 405-1111</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/2727304.gif</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/2727304.gif</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/2727304.gif</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/2727304.gif</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/2727304/Pepsi+Center+The.gif</image>
+  </venue>    <startDate>Wed, 28 May 2014 16:57:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704472</tag>    
+  <url>http://www.last.fm/event/3704472+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704473</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10302678</id>
+    <name>Pinnacle Bank Arena</name>
+    <location>
+      <city>Lincoln</city>
+      <country>United States</country>
+      <street>600 R St</street>
+      <postalcode>68508</postalcode>
+      <geo:point>
+         <geo:lat>40.816965</geo:lat>
+         <geo:long>-96.710747</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10302678+Pinnacle+Bank+Arena</url>
+    <website>http://www.pinnaclebankarena.com/</website>
+    <phonenumber></phonenumber>
+    <image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<image size="extralarge"></image>
+	<image size="mega"></image>
+  </venue>    <startDate>Fri, 30 May 2014 16:59:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704473</tag>    
+  <url>http://www.last.fm/event/3704473+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3697435</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8858654</id>
+    <name>Sprint Center</name>
+    <location>
+      <city>Kansas City MO</city>
+      <country>United States</country>
+      <street>1407 Grand Boulevard</street>
+      <postalcode>64106</postalcode>
+      <geo:point>
+         <geo:lat>39.097154</geo:lat>
+         <geo:long>-94.581009</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8858654+Sprint+Center</url>
+    <website>http://sprintcenterconcerts.tumblr.com</website>
+    <phonenumber>816.949.7050</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/3542169.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/3542169.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/3542169.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/3542169.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/3542169/Sprint+Center.jpg</image>
+  </venue>    <startDate>Sat, 31 May 2014 14:47:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3697435</tag>    
+  <url>http://www.last.fm/event/3697435+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704474</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10227008</id>
+    <name>KFC Yum! Center</name>
+    <location>
+      <city>Louisville</city>
+      <country>United States</country>
+      <street>1 Arena Plaza</street>
+      <postalcode>40202</postalcode>
+      <geo:point>
+         <geo:lat>38.256531</geo:lat>
+         <geo:long>-85.754148</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10227008+KFC+Yum!+Center</url>
+    <website>http://kfcyumcenterconcerts.tumblr.com</website>
+    <phonenumber>(502) 690-9000</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/70502446.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/70502446.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/70502446.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/70502446.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/70502446/KFC+Yum+Center+kfcyum.jpg</image>
+  </venue>    <startDate>Mon, 02 Jun 2014 17:00:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704474</tag>    
+  <url>http://www.last.fm/event/3704474+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704475</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8789121</id>
+    <name>Scottrade Center</name>
+    <location>
+      <city></city>
+      <country>United States</country>
+      <street>1401 Clark Ave</street>
+      <postalcode>63103</postalcode>
+      <geo:point>
+         <geo:lat>38.627335</geo:lat>
+         <geo:long>-90.202888</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8789121+Scottrade+Center</url>
+    <website>http://scottradecenter.tumblr.com</website>
+    <phonenumber>314-622-5435</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/5034242.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/5034242.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/5034242.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/5034242.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/5034242/Scottrade+Center+scottrade001.jpg</image>
+  </venue>    <startDate>Wed, 04 Jun 2014 17:02:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704475</tag>    
+  <url>http://www.last.fm/event/3704475+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704477</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10266367</id>
+    <name>BMO Harris Bradley Center</name>
+    <location>
+      <city>Milwaukee WI</city>
+      <country>United States</country>
+      <street></street>
+      <postalcode></postalcode>
+      <geo:point>
+         <geo:lat>43.043728</geo:lat>
+         <geo:long>-87.917166</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10266367+BMO+Harris+Bradley+Center</url>
+    <website></website>
+    <phonenumber></phonenumber>
+    <image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<image size="extralarge"></image>
+	<image size="mega"></image>
+  </venue>    <startDate>Fri, 06 Jun 2014 17:03:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704477</tag>    
+  <url>http://www.last.fm/event/3704477+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704480</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8779619</id>
+    <name>Allstate Arena</name>
+    <location>
+      <city>Rosemont</city>
+      <country>United States</country>
+      <street>6920 N. Mannheim Road</street>
+      <postalcode>60018</postalcode>
+      <geo:point>
+         <geo:lat>42.005779</geo:lat>
+         <geo:long>-87.884675</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8779619+Allstate+Arena</url>
+    <website>http://www.allstatearena.com/</website>
+    <phonenumber>847.635.6601</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/28766261.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/28766261.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/28766261.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/28766261.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/28766261/Allstate+Arena+AllstateArena800pxAllstate_Are.jpg</image>
+  </venue>    <startDate>Sat, 07 Jun 2014 17:04:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704480</tag>    
+  <url>http://www.last.fm/event/3704480+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>pop</tag>
+      <tag>dance</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704483</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8792422</id>
+    <name>Wells Fargo Arena</name>
+    <location>
+      <city>Des Moines</city>
+      <country>United States</country>
+      <street>730 3rd Street</street>
+      <postalcode>50309</postalcode>
+      <geo:point>
+         <geo:lat>41.592634</geo:lat>
+         <geo:long>-93.620982</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8792422+Wells+Fargo+Arena</url>
+    <website>http://www.iowaeventscenter.com/arena_info_wells_fargo.aspx</website>
+    <phonenumber></phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/37566715.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/37566715.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/37566715.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/37566715.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/37566715/Wells+Fargo+Arena.jpg</image>
+  </venue>    <startDate>Mon, 09 Jun 2014 17:06:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704483</tag>    
+  <url>http://www.last.fm/event/3704483+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704485</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8778532</id>
+    <name>Target Center</name>
+    <location>
+      <city>Minneapolis</city>
+      <country>United States</country>
+      <street>600 First Avenue North</street>
+      <postalcode>55403</postalcode>
+      <geo:point>
+         <geo:lat>44.979657</geo:lat>
+         <geo:long>-93.274889</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8778532+Target+Center</url>
+    <website>http://targetcenter.tumblr.com</website>
+    <phonenumber>(612) 673-1300</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/593102.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/593102.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/593102.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/593102.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/593102/Target+Center.jpg</image>
+  </venue>    <startDate>Wed, 11 Jun 2014 17:08:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704485</tag>    
+  <url>http://www.last.fm/event/3704485+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704487</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8813048</id>
+    <name>MTS Centre</name>
+    <location>
+      <city>Winnipeg</city>
+      <country>Canada</country>
+      <street>393 Portage Ave</street>
+      <postalcode>R3B 3H6</postalcode>
+      <geo:point>
+         <geo:lat>49.893697</geo:lat>
+         <geo:long>-97.143063</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8813048+MTS+Centre</url>
+    <website>http://www.mtscentre.ca</website>
+    <phonenumber>+1 204-987-7825</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/57841.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/57841.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/57841.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/57841.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/57841/MTS+Centre.jpg</image>
+  </venue>    <startDate>Fri, 20 Jun 2014 17:09:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704487</tag>    
+  <url>http://www.last.fm/event/3704487+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704488</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8786013</id>
+    <name>Credit Union Centre</name>
+    <location>
+      <city>Saskatoon</city>
+      <country>Canada</country>
+      <street>3515 Thatcher Ave</street>
+      <postalcode></postalcode>
+      <geo:point>
+         <geo:lat>52.19094</geo:lat>
+         <geo:long>-106.677464</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8786013+Credit+Union+Centre</url>
+    <website>http://www.creditunioncentre.com/</website>
+    <phonenumber></phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/3298162.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/3298162.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/3298162.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/3298162.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/3298162/Credit+Union+Centre+saskplace.jpg</image>
+  </venue>    <startDate>Sat, 21 Jun 2014 17:10:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704488</tag>    
+  <url>http://www.last.fm/event/3704488+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3699678</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8781553</id>
+    <name>Rexall Place</name>
+    <location>
+      <city>Edmonton</city>
+      <country>Canada</country>
+      <street>7424 118 Avenue Nw</street>
+      <postalcode>T5B 4M9</postalcode>
+      <geo:point>
+         <geo:lat>53.570466</geo:lat>
+         <geo:long>-113.455444</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8781553+Rexall+Place</url>
+    <website>http://rexallplace.tumblr.com</website>
+    <phonenumber>(780) 471-7210</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/28314971.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/28314971.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/28314971.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/28314971.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/28314971/Rexall+Place+IMG_3308.jpg</image>
+  </venue>    <startDate>Mon, 23 Jun 2014 20:00:00</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3699678</tag>    
+  <url>http://www.last.fm/event/3699678+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704490</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>9201253</id>
+    <name>Scotiabank Saddledome</name>
+    <location>
+      <city>Calgary</city>
+      <country>Canada</country>
+      <street>555 Saddledome Rise SE</street>
+      <postalcode>T2G 2W1</postalcode>
+      <geo:point>
+         <geo:lat>51.038254</geo:lat>
+         <geo:long>-114.05263</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/9201253+Scotiabank+Saddledome</url>
+    <website>http://www.scotiabanksaddledome.com</website>
+    <phonenumber>(403) 777-4646</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/65840128.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/65840128.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/65840128.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/65840128.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/65840128/Scotiabank+Saddledome+Scotiabank_Saddledome.jpg</image>
+  </venue>    <startDate>Wed, 25 Jun 2014 17:12:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704490</tag>    
+  <url>http://www.last.fm/event/3704490+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704493</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10225796</id>
+    <name>Rogers Arena</name>
+    <location>
+      <city>Vancouver</city>
+      <country>Canada</country>
+      <street>800 Griffiths Way</street>
+      <postalcode>V6B 6G1</postalcode>
+      <geo:point>
+         <geo:lat>49.277661</geo:lat>
+         <geo:long>-123.108107</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10225796+Rogers+Arena</url>
+    <website>http://www.rogersarena.ca/</website>
+    <phonenumber>604.899.7400</phonenumber>
+    <image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<image size="extralarge"></image>
+	<image size="mega"></image>
+  </venue>    <startDate>Fri, 27 Jun 2014 17:13:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704493</tag>    
+  <url>http://www.last.fm/event/3704493+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704497</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8778827</id>
+    <name>Key Arena</name>
+    <location>
+      <city>Seattle</city>
+      <country>United States</country>
+      <street>305 Harrison Street</street>
+      <postalcode>98109</postalcode>
+      <geo:point>
+         <geo:lat>47.621178</geo:lat>
+         <geo:long>-122.352215</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8778827+Key+Arena</url>
+    <website>http://keyarena.tumblr.com</website>
+    <phonenumber>(206) 684-7200</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/578303.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/578303.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/578303.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/578303.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/_/578303/Key+Arena.jpg</image>
+  </venue>    <startDate>Sat, 28 Jun 2014 17:14:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>2</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704497</tag>    
+  <url>http://www.last.fm/event/3704497+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704502</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10328248</id>
+    <name>Moda Center, 1 N Center Ct St #150, Portland, OR 97227, United States</name>
+    <location>
+      <city>Portland</city>
+      <country>United States</country>
+      <street></street>
+      <postalcode></postalcode>
+      <geo:point>
+         <geo:lat></geo:lat>
+         <geo:long></geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10328248+Moda+Center,+1+N+Center+Ct+St+%23150,+Portland,+OR+97227,+United+States</url>
+    <website></website>
+    <phonenumber></phonenumber>
+    <image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<image size="extralarge"></image>
+	<image size="mega"></image>
+  </venue>    <startDate>Mon, 30 Jun 2014 17:19:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704502</tag>    
+  <url>http://www.last.fm/event/3704502+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704504</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10322331</id>
+    <name>SAP Center at San Jose</name>
+    <location>
+      <city>San Jose</city>
+      <country>United States</country>
+      <street>525 W. Santa Clara Street</street>
+      <postalcode>95113</postalcode>
+      <geo:point>
+         <geo:lat>37.332799</geo:lat>
+         <geo:long>-121.90121</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10322331+SAP+Center+at+San+Jose</url>
+    <website>http://www.sapcenteratsanjose.com</website>
+    <phonenumber>408-287-7070</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/92298429.png</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/92298429.png</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/92298429.png</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/92298429.png</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/92298429/SAP+Center+at+San+Jose+sapcenter.png</image>
+  </venue>    <startDate>Wed, 02 Jul 2014 17:20:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>1</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704504</tag>    
+  <url>http://www.last.fm/event/3704504+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704507</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8987290</id>
+    <name>Citizens Business Bank Arena</name>
+    <location>
+      <city>Ontario</city>
+      <country>United States</country>
+      <street>4000 E Ontario Center Pkwy</street>
+      <postalcode>91764</postalcode>
+      <geo:point>
+         <geo:lat>34.071822</geo:lat>
+         <geo:long>-117.566671</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8987290+Citizens+Business+Bank+Arena</url>
+    <website>http://www.cbbankarena.com/</website>
+    <phonenumber>(909) 244-5500</phonenumber>
+    <image size="small"></image>
+	<image size="medium"></image>
+	<image size="large"></image>
+	<image size="extralarge"></image>
+	<image size="mega"></image>
+  </venue>    <startDate>Sat, 05 Jul 2014 17:22:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704507</tag>    
+  <url>http://www.last.fm/event/3704507+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704508</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8780552</id>
+    <name>Staples Center</name>
+    <location>
+      <city>Los Angeles</city>
+      <country>United States</country>
+      <street>1111 S. Figueroa St</street>
+      <postalcode>90015</postalcode>
+      <geo:point>
+         <geo:lat>34.043634</geo:lat>
+         <geo:long>-118.267385</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8780552+Staples+Center</url>
+    <website>http://staplescenterla.tumblr.com</website>
+    <phonenumber>(213) 742-7340</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/80632051.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/80632051.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/80632051.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/80632051.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/80632051/Staples+Center++Exterior.jpg</image>
+  </venue>    <startDate>Mon, 07 Jul 2014 17:22:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>3</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704508</tag>    
+  <url>http://www.last.fm/event/3704508+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>female vocalists</tag>
+      <tag>80s</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704511</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>8803641</id>
+    <name>Honda Center (formerly Arrowhead Pond Of Anaheim)</name>
+    <location>
+      <city>Anaheim</city>
+      <country>United States</country>
+      <street>2685 E Katella Ave</street>
+      <postalcode>92806</postalcode>
+      <geo:point>
+         <geo:lat>33.80618</geo:lat>
+         <geo:long>-117.876477</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/8803641+Honda+Center+(formerly+Arrowhead+Pond+Of+Anaheim)</url>
+    <website>http://www.hondacenter.com/</website>
+    <phonenumber>(714) 704-2500</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/5537682.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/5537682.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/5537682.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/5537682.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/5537682/Honda+Center+formerly+Arrowhead+Pond+Of+Anaheim+Hondaextarch.jpg</image>
+  </venue>    <startDate>Wed, 09 Jul 2014 17:23:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704511</tag>    
+  <url>http://www.last.fm/event/3704511+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event>    <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <id>3704514</id>
+  <title>Dressed To Kill Tour</title>
+  <artists>
+    <artist>Cher</artist>
+    <headliner>Cher</headliner>
+  </artists>
+    <venue>
+    <id>10244361</id>
+    <name>Valley View Casino Center</name>
+    <location>
+      <city>San Diego</city>
+      <country>United States</country>
+      <street>3500 Sports Arena Boulevard</street>
+      <postalcode>92110</postalcode>
+      <geo:point>
+         <geo:lat>32.755077</geo:lat>
+         <geo:long>-117.211794</geo:long>
+      </geo:point>
+    </location>
+    <url>http://www.last.fm/venue/10244361+Valley+View+Casino+Center</url>
+    <website>http://www.valleyviewcasinocenter.com/</website>
+    <phonenumber>(619) 224-4171</phonenumber>
+    <image size="small">http://userserve-ak.last.fm/serve/34/75020456.jpg</image>
+	<image size="medium">http://userserve-ak.last.fm/serve/64/75020456.jpg</image>
+	<image size="large">http://userserve-ak.last.fm/serve/126/75020456.jpg</image>
+	<image size="extralarge">http://userserve-ak.last.fm/serve/252/75020456.jpg</image>
+	<image size="mega">http://userserve-ak.last.fm/serve/500/75020456/Valley+View+Casino+Center+valleyviewcasinocenter_0.jpg</image>
+  </venue>    <startDate>Fri, 11 Jul 2014 17:24:01</startDate>
+  <description></description>
+  <image size="small">http://userserve-ak.last.fm/serve/34/93299741.png</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/93299741.png</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/93299741.png</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/93299741.png</image>
+  <attendance>0</attendance>
+  <reviews>0</reviews>
+  <tag>lastfm:event=3704514</tag>    
+  <url>http://www.last.fm/event/3704514+Dressed+To+Kill+Tour</url>
+  <website>http://tour.cher.com/</website>
+    <tickets>
+  </tickets>
+    <cancelled>0</cancelled>
+    <tags>
+      <tag>dance</tag>
+      <tag>pop</tag>
+      <tag>80s</tag>
+      <tag>female vocalists</tag>
+      <tag>cher</tag>
+    </tags>
+    </event></events></lfm>

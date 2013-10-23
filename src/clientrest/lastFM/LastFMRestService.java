@@ -7,6 +7,7 @@ import java.util.SortedSet;
 import javax.ejb.Local;
 
 import modele.Artiste;
+import modele.Evenement;
 import modele.Image;
 import modele.Piste;
 
@@ -21,5 +22,7 @@ public interface LastFMRestService{
 	public SortedSet<Piste> getPistesArtistes(String nom);
 	
 	public Artiste getDetailArtistInfo(String nom);
+	
+	public SortedSet<Evenement> getArtistEvent(String artistName);
 	
 }

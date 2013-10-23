@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <xs:import schemaLocation="artist.getEvent.xsd"/>
+  <xs:element name="point">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="geo:lat"/>
+        <xs:element ref="geo:long"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lat" type="xs:string"/>
+  <xs:element name="long" type="xs:string"/>
+</xs:schema>

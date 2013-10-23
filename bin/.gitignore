@@ -1,12 +1,7 @@
-/clientrest
-/generatedDeezerPreview
-/generatedDeezerArtistSearch
-/generatedImages
-/generatedLastFMArtistInfo
-/generatedLastFM
-/generatedTrack
-/generated
 /client
+/clientrest
+/dao
+/generated
 /manager
 /modele
-/dao
+/org

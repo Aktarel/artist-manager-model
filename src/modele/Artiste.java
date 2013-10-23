@@ -45,6 +45,18 @@ public class Artiste{
 	@OneToMany(mappedBy="artiste",cascade=CascadeType.ALL,fetch=FetchType.EAGER)
 	private Set<Similaire> listeSimilaire = new HashSet<Similaire>();
 
+	@OneToMany(mappedBy = "artiste", cascade = CascadeType.ALL,fetch=FetchType.EAGER)
+	@Sort(type = SortType.NATURAL) 
+	private SortedSet<Evenement> listeEvenement = new ConcurrentSkipListSet<Evenement>();
+	
+
+	public SortedSet<Evenement> getListeEvenement() {
+		return listeEvenement;
+	}
+
+	public void setListeEvenement(SortedSet<Evenement> listeEvenement) {
+		this.listeEvenement = listeEvenement;
+	}
 
 	public Artiste(String nom, String description2) {
 		this.setNom(nom);
@@ -99,6 +111,11 @@ public class Artiste{
 
 		uneImage.setArtiste(this);
 		listeImage.add(uneImage);
+	}
+	public void addEvenement(Evenement event) {
+
+		event.setArtiste(this);
+		listeEvenement.add(event);
 	}
 
 	public void addPiste(Piste unePiste) {

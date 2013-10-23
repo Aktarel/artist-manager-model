@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <xs:import namespace="http://www.w3.org/2003/01/geo/wgs84_pos#" schemaLocation="geo.xsd"/>
+  <xs:element name="lfm">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="events"/>
+      </xs:sequence>
+      <xs:attribute name="status" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="events">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="event"/>
+      </xs:sequence>
+      <xs:attribute name="artist" use="required" type="xs:NCName"/>
+      <xs:attribute name="festivalsonly" use="required" type="xs:integer"/>
+      <xs:attribute name="page" use="required" type="xs:integer"/>
+      <xs:attribute name="perPage" use="required" type="xs:integer"/>
+      <xs:attribute name="total" use="required" type="xs:integer"/>
+      <xs:attribute name="totalPages" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="event">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="title"/>
+        <xs:element ref="artists"/>
+        <xs:element ref="venue"/>
+        <xs:element ref="startDate"/>
+        <xs:element ref="description"/>
+        <xs:element maxOccurs="unbounded" ref="image"/>
+        <xs:element ref="attendance"/>
+        <xs:element ref="reviews"/>
+        <xs:element ref="tag"/>
+        <xs:element ref="url"/>
+        <xs:element ref="website"/>
+        <xs:element ref="tickets"/>
+        <xs:element ref="cancelled"/>
+        <xs:element ref="tags"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="artists">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="artist"/>
+        <xs:element ref="headliner"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="artist" type="xs:NCName"/>
+  <xs:element name="headliner" type="xs:NCName"/>
+  <xs:element name="venue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="name"/>
+        <xs:element ref="location"/>
+        <xs:element ref="url"/>
+        <xs:element ref="website"/>
+        <xs:element ref="phonenumber"/>
+        <xs:element maxOccurs="unbounded" ref="image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="location">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="city"/>
+        <xs:element ref="country"/>
+        <xs:element ref="street"/>
+        <xs:element ref="postalcode"/>
+        <xs:element ref="geo:point"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="city" type="xs:string"/>
+  <xs:element name="country" type="xs:string"/>
+  <xs:element name="street" type="xs:string"/>
+  <xs:element name="postalcode" type="xs:string"/>
+  <xs:element name="phonenumber" type="xs:string"/>
+  <xs:element name="startDate" type="xs:string"/>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="attendance" type="xs:integer"/>
+  <xs:element name="reviews" type="xs:integer"/>
+  <xs:element name="tickets">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="cancelled" type="xs:integer"/>
+  <xs:element name="tags">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tag"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="id" type="xs:integer"/>
+  <xs:element name="url" type="xs:anyURI"/>
+  <xs:element name="website" type="xs:anyURI"/>
+  <xs:element name="image">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="size" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tag" type="xs:anyURI"/>
+</xs:schema>
