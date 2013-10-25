@@ -17,6 +17,17 @@ Logiciels necessaires
 <li>Conteneur qui supporte l'interface EJB ( JONAS , JBoss ,  Glassfish )</li>
 </ul>
 
+Technologies employés
+====================
+
+<ul>
+  <li>ORM : Hibernate 3 / JPA</li>
+  <li>SGBDR : HSQLDB </li>
+  <li>Composants logiciels : EJB 3.0 </li>
+  <li>Parser XML : JAXB</li>
+</ul>
+
+
 Pré-requis d'installation
 ====================
 Configurer dans le JNDI un lien vers une base de donnée HSQLDB (://DefaultDS - voir persistence.xml)
