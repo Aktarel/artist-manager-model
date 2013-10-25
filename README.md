@@ -41,7 +41,7 @@ Auteurs
 ===================
 Deux étudiants ingénieurs de l'ESIEA pour le projet programmation web:
   <ul>
-    <li>Nicolas Lebec</li>
-    <li>Remy Ouadah</li>
+    <li><a href='https://github.com/Aktarel' >Nicolas Lebec</a></li>
+    <li><a href='https://github.com/moigoule' >Remy Ouadah</a></li>
   </ul>
   
