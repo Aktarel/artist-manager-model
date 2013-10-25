@@ -9,6 +9,7 @@ import generated.LastFM.track.Lfm;
 import generated.LastFM.track.Toptracks;
 import generated.LastFM.track.Track;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.HashSet;
@@ -158,7 +159,7 @@ public class LastFMRestSearch implements LastFMRestService {
 					.unmarshal(urlScrobbler);
 			artiste.setDescription(lfm.getArtist().getBio().getSummary());
 			artiste.setNom(nom);
-
+			log.error("LFM statuts:"+lfm.getStatus());
 			if (lfm.getStatus() != "failed") {
 
 				generated.LastFM.artist.info.Artist currentArtist = (generated.LastFM.artist.info.Artist) lfm
@@ -166,7 +167,6 @@ public class LastFMRestSearch implements LastFMRestService {
 				generated.LastFM.artist.info.Image img = ((generated.LastFM.artist.info.Image) currentArtist
 						.getImageOrMbidOrName().get(7));
 
-				// log.error("IMG : "+img.getValue());
 				mesImages.add(new modele.Image(img.getValue()));
 
 				for (Object objet : lfm.getArtist().getImageOrMbidOrName()) {
@@ -199,8 +199,10 @@ public class LastFMRestSearch implements LastFMRestService {
 
 			artiste.setListePiste(mesPistes);
 			artiste.setListeImage(mesImages);
-		} catch (Exception e) {
-			e.printStackTrace();
+		} catch (JAXBException e) {
+			log.error("JAXBException : Impossible de deserialiser le fichier XML");
+		} catch (IOException e) {
+			log.error("IOException : Impossible de deserialiser le fichier XML");
 		}
 
 		return artiste;
@@ -243,10 +245,10 @@ public class LastFMRestSearch implements LastFMRestService {
 				evenements.add(evenement);
 				
 			}
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		} catch (JAXBException e2) {
-			e2.printStackTrace();
+		} catch (JAXBException e) {
+			log.error("JAXBException : Impossible de deserialiser le fichier XML");
+		} catch (IOException e) {
+			log.error("IOException : Impossible de deserialiser le fichier XML");
 		}
 		return evenements;
 	}

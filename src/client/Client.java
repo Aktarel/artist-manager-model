@@ -11,9 +11,6 @@ import modele.Artiste;
 import clientrest.lastFM.LastFMRestService;
 
 
-//insert into entite values ('ARTISTE',1,'Madonna','forte!',null,null)
-//insert into entite values ('ARTISTE',2,'Wood Allen','fort!',null,null)
-
 
 public class Client {
 
@@ -29,7 +26,7 @@ public class Client {
 		    env.setProperty("java.naming.factory.url.pkgs", "org.jboss.naming:org.jnp.interfaces");  
 		    env.setProperty("java.naming.provider.url", "jnp://localhost:1099");  
 		InitialContext ic = new InitialContext(env);
-		LastFMRestService lfm = (LastFMRestService) ic.lookup("LastFMRestSearch/remote");
+		LastFMRestService lfm = (LastFMRestService) ic.lookup("ArtistManagerImpl/LastFMRestSearch/local");
 		Artiste a = lfm.getDetailArtistInfo("eminem");
 		System.out.println(a.toString());
 

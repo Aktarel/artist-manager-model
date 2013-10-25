@@ -1,8 +1,8 @@
 package manager;
 
-import javax.ejb.Remote;
+import javax.ejb.Local;
 
-@Remote
+@Local
 public interface GestionnaireRessource {
 
 	public Object get(Ressources r, String param);
