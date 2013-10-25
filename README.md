@@ -1,7 +1,11 @@
 Artist-manager-model
 ====================
 
-Projet representant le modele de l'application web artist-manager.
+Projet representant le modele de l'application web artist-manager. Il est présenté sous la
+forme d'une archive jar qu'il est possible de deployer sur une conteneur lourd via ant.
+
+Cependant, ce projet est lié à Artist-manager qui représente la WebApp. Ils sont liés et necessaire à l'élaboration
+de l'archive ear (voir script déploiemen build.xml de artist-manager)
 
 Logiciels necessaires
 ====================
