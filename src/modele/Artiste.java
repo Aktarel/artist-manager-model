@@ -12,7 +12,6 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 
 import org.hibernate.annotations.Sort;
@@ -50,12 +49,7 @@ public class Artiste{
 	@Sort(type = SortType.NATURAL) 
 	private SortedSet<Evenement> listeEvenement = new ConcurrentSkipListSet<Evenement>();
 	
-	@ManyToMany
-	private Set<Utilisateur> usersOnWishList;
-	
 	private long popularity;
-	
-	private long favoris;
 	
 	public SortedSet<Evenement> getListeEvenement() {
 		return listeEvenement;
@@ -169,20 +163,11 @@ public class Artiste{
 		popularity++;
 	}
 
-	public Artiste(String nom, long popularity,long favoris) {
+	public Artiste(String nom, long popularity) {
 		super();
 		this.nom = nom;
 		this.popularity = popularity;
-		this.favoris=favoris;
 	}
 
-	public long getFavoris() {
-		return favoris;
-	}
-
-	public void setFavoris(long favoris) {
-		this.favoris = favoris;
-	}
-	
 	
 }

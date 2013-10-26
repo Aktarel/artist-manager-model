@@ -1,5 +1,6 @@
 package manager.impl;
 
+import java.util.Date;
 import java.util.List;
 import java.util.SortedSet;
 import java.util.concurrent.ConcurrentSkipListSet;
@@ -11,27 +12,32 @@ import manager.GestionnaireRessource;
 import manager.Ressources;
 import modele.Artiste;
 import modele.Evenement;
+import modele.Utilisateur;
 
 import org.apache.log4j.Logger;
 
 import clientrest.deezer.DeezerRestService;
 import clientrest.lastFM.LastFMRestService;
 import dao.DAOArtistService;
+import dao.DAOUserService;
 
 @Stateless
-public class ArtisteManagerImpl implements GestionnaireRessource {
+public class RessourceManagerImpl implements GestionnaireRessource {
 
-	private final Logger log = Logger.getLogger(ArtisteManagerImpl.class);
+	private final Logger log = Logger.getLogger(RessourceManagerImpl.class);
 	
 	@EJB
 	private DAOArtistService unDaoArtiste;
+	
+	@EJB
+	private DAOUserService daoUser;
 	
 	@EJB
 	private LastFMRestService api;
 	
 	@EJB
 	private DeezerRestService apiDeezer;
-
+	
 	public Object get(Ressources r,String param) {
 		if(r.equals(Ressources.artiste)){
 			
@@ -56,6 +62,20 @@ public class ArtisteManagerImpl implements GestionnaireRessource {
 		}
 		else if(r.equals(Ressources.topArtistes)){
 			return unDaoArtiste.topArtistes(Integer.parseInt(param));
+		}
+		else if(r.equals(Ressources.utilisateur)){
+			Utilisateur user = daoUser.get(param);
+			if(user==null){
+				user = new Utilisateur();
+				user.setIpAdresse(param);
+				user.setDateDerniereConnection(new Date());
+				daoUser.add(user);
+			}
+			else{
+				user.setDateDerniereConnection(new Date());
+				daoUser.update(user);
+			}
+			return user;
 		}
 		else if(r.equals(Ressources.artistesToString)){
 			

@@ -1,14 +1,11 @@
 package modele;
 
 import java.util.Date;
-import java.util.List;
 
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
 
 @Entity
 public class Utilisateur {
@@ -21,8 +18,6 @@ public class Utilisateur {
 	
 	private Date dateDerniereConnection;
 	
-	@ManyToMany(fetch=FetchType.EAGER)
-	private List<Artiste> artistesFavoris;
 
 	public int getIdU() {
 		return idU;
@@ -48,13 +43,11 @@ public class Utilisateur {
 		this.dateDerniereConnection = dateDerniereConnection;
 	}
 
-	public Utilisateur(int idU, String ipAdresse, Date dateDerniereConnection,
-			List<Artiste> artistes) {
+	public Utilisateur(int idU, String ipAdresse, Date dateDerniereConnection) {
 		super();
 		this.idU = idU;
 		this.ipAdresse = ipAdresse;
 		this.dateDerniereConnection = dateDerniereConnection;
-		this.artistesFavoris = artistes;
 	}
 	
 	
@@ -62,13 +55,6 @@ public class Utilisateur {
 		// TODO Auto-generated constructor stub
 	}
 
-	public List<Artiste> getArtistesFavoris() {
-		return artistesFavoris;
-	}
-
-	public void setArtistesFavoris(List<Artiste> artistesFavoris) {
-		this.artistesFavoris = artistesFavoris;
-	}
 
 	public Utilisateur(String ipAdresse, Date dateDerniereConnection) {
 		super();

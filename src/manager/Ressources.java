@@ -1,5 +1,5 @@
 package manager;
 
 public enum Ressources {
-artiste,evenement,artistesToString,topArtistes
+artiste,evenement,artistesToString,topArtistes,utilisateur
 }

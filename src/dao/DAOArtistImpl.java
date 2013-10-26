@@ -50,7 +50,7 @@ public class DAOArtistImpl implements DAOArtistService {
 
 			}
 		} catch (Exception e) {
-			em.getTransaction().rollback();
+			log.error("Erreur dans l'insertion de l'artiste");
 		}
 
 	}
@@ -98,7 +98,7 @@ public class DAOArtistImpl implements DAOArtistService {
 		CriteriaQuery<Artiste> q = cb.createQuery(Artiste.class);
 		Root<Artiste> root = q.from(Artiste.class);
 		TypedQuery<Artiste> tq = em.createQuery(q);
-		q.multiselect(root.get("nom"),root.get("popularity"),root.get("favoris"));
+		q.multiselect(root.get("nom"),root.get("popularity"));
 		List<Artiste> artistes = em.createQuery(q).setMaxResults(limit).getResultList();
 		
 		if (artistes.size() == 0) {
