@@ -11,7 +11,11 @@ import modele.Evenement;
 import modele.Image;
 import modele.Piste;
 
-
+/**
+ * Interface pour interroger les services lastfm
+ * @author nicolas
+ *
+ */
 @Local
 public interface LastFMRestService{
 

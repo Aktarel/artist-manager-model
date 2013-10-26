@@ -32,6 +32,13 @@ import modele.Similaire;
 import org.apache.log4j.Logger;
 import org.w3._2003._01.geo.wgs84_pos.Point;
 
+
+/**
+ * Api lastfm permettant d'interroger les serveur de lastfm
+ * Le XML est mapper en objet java
+ * @author nicolas
+ *
+ */
 @Stateless
 public class LastFMRestSearch implements LastFMRestService {
 

@@ -2,6 +2,12 @@ package modele;
 
 import javax.persistence.Embeddable;
 
+
+/**
+ * Objet representant une adresse et associe a un artiste
+ * @author nicolas
+ *
+ */
 @Embeddable
 public class Adresse {
 

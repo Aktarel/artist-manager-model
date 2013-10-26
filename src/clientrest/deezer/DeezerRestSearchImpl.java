@@ -18,7 +18,12 @@ import javax.xml.bind.Unmarshaller;
 
 import modele.Artiste;
 import modele.Piste;
-
+/**
+ * Api d'acces au scrobbler de deezer
+ * Le XML est mapper en objet et les balises sont typees en objets
+ * @author nicolas
+ *
+ */
 @Stateless
 public class DeezerRestSearchImpl implements DeezerRestService {
 

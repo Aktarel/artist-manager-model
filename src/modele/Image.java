@@ -10,6 +10,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+/**
+ * Objet representant une image
+ * @deprecated : les catalogues de photos ne sont plus accessible depuis le 22/10/2013
+ * @author nicolas
+ *
+ */
 @Entity
 public class Image implements Serializable {
 

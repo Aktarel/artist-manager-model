@@ -21,6 +21,13 @@ import clientrest.lastFM.LastFMRestService;
 import dao.DAOArtistService;
 import dao.DAOUserService;
 
+
+/**
+ * Implementation du gestionnaire de ressource
+ * Dispatch les ressources en fonction des besoins de l'application web
+ * @author nicolas
+ *
+ */
 @Stateless
 public class RessourceManagerImpl implements GestionnaireRessource {
 

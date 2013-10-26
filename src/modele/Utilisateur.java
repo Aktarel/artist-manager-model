@@ -7,6 +7,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+/**
+ * Un utilisateur en mode non connecte, il est identifie par son ip
+ * donc plutot un guest
+ * @author nicolas
+ *
+ */
 @Entity
 public class Utilisateur {
 

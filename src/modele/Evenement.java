@@ -10,6 +10,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+/**
+ * Represente un evenement geographique ou l'artiste va participer
+ * @author nicolas
+ *
+ */
 @Entity
 public class Evenement implements Serializable, Comparable<Evenement> {
 

@@ -7,6 +7,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+/**
+ * Objet representant les similaires d'un artiste au niveau genre muscical
+ * @author nicolas
+ *
+ */
 @Entity
 public class Similaire {
 

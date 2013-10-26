@@ -16,7 +16,16 @@ import javax.persistence.OneToMany;
 
 import org.hibernate.annotations.Sort;
 import org.hibernate.annotations.SortType;
-
+/**
+ * Objet central de l'application
+ * Represente un artiste
+ * Possede :
+ *    > 1 a n evenements
+ *    > 1 a n images
+ *    > 1 a n pistes
+ * @author nicolas
+ *
+ */
 @Entity
 public class Artiste{
 	/**
