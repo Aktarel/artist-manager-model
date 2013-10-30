@@ -60,19 +60,12 @@ public class Artiste{
 	@Sort(type = SortType.NATURAL) 
 	private SortedSet<Evenement> listeEvenement = new ConcurrentSkipListSet<Evenement>();
 	
-	@ManyToMany(mappedBy="favoris",fetch=FetchType.EAGER)
-	private Set<Utilisateur> listeFans = new HashSet<Utilisateur>();
+	@ManyToMany(mappedBy="favoris",cascade=CascadeType.ALL,fetch=FetchType.EAGER)
+	private Set<Utilisateur> fans = new HashSet<Utilisateur>();
 
 	@Transient
 	private long nbFans;
 	
-	public Set<Utilisateur> getListeFans() {
-		return listeFans;
-	}
-
-	public void setListeFans(Set<Utilisateur> listeFans) {
-		this.listeFans = listeFans;
-	}
 
 	private long popularity;
 
@@ -95,6 +88,13 @@ public class Artiste{
 		this.setNbFans(fans);
 	}
 
+	
+	public Artiste(String nom, long popularity ,Set<Utilisateur> listeFans) {
+		super();
+		this.nom = nom;
+		this.fans = listeFans;
+		this.popularity = popularity;
+	}
 
 	public String getDescription() {
 		return description;
@@ -192,7 +192,7 @@ public class Artiste{
 
 
 	public void addFan(Utilisateur u){
-		listeFans.add(u);
+		fans.add(u);
 	}
 
 	public Artiste() {
@@ -204,6 +204,14 @@ public class Artiste{
 
 	public void setNbFans(long nbFans) {
 		this.nbFans = nbFans;
+	}
+
+	public Set<Utilisateur> getFans() {
+		return fans;
+	}
+
+	public void setFans(Set<Utilisateur> fans) {
+		this.fans = fans;
 	}
 	
 	
