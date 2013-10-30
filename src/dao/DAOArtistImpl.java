@@ -9,11 +9,15 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Join;
+import javax.persistence.criteria.JoinType;
 import javax.persistence.criteria.Root;
-
-import org.apache.log4j.Logger;
+import javax.persistence.criteria.SetJoin;
 
 import modele.Artiste;
+import modele.Utilisateur;
+
+import org.apache.log4j.Logger;
 
 @Stateless
 public class DAOArtistImpl implements DAOArtistService {
@@ -98,7 +102,7 @@ public class DAOArtistImpl implements DAOArtistService {
 		CriteriaQuery<Artiste> q = cb.createQuery(Artiste.class);
 		Root<Artiste> root = q.from(Artiste.class);
 		TypedQuery<Artiste> tq = em.createQuery(q);
-		q.multiselect(root.get("nom"),root.get("popularity"));
+		
 		List<Artiste> artistes = em.createQuery(q).setMaxResults(limit).getResultList();
 		
 		if (artistes.size() == 0) {

@@ -45,9 +45,11 @@ public class RessourceManagerImpl implements GestionnaireRessource {
 	@EJB
 	private DeezerRestService apiDeezer;
 	
-	public Object get(Ressources r,String param) {
+	public Object get(Ressources r,String... params) {
+		
+		String param = params[0];
+		
 		if(r.equals(Ressources.artiste)){
-			
 			Artiste a = unDaoArtiste.getUnArtiste(param);
 			if(a !=null ){
 				a.incrementPopularity();
@@ -71,18 +73,7 @@ public class RessourceManagerImpl implements GestionnaireRessource {
 			return unDaoArtiste.topArtistes(Integer.parseInt(param));
 		}
 		else if(r.equals(Ressources.utilisateur)){
-			Utilisateur user = daoUser.get(param);
-			if(user==null){
-				user = new Utilisateur();
-				user.setIpAdresse(param);
-				user.setDateDerniereConnection(new Date());
-				daoUser.add(user);
-			}
-			else{
-				user.setDateDerniereConnection(new Date());
-				daoUser.update(user);
-			}
-			return user;
+			return daoUser.get(param);
 		}
 		else if(r.equals(Ressources.artistesToString)){
 			
@@ -104,5 +95,32 @@ public class RessourceManagerImpl implements GestionnaireRessource {
 			return "Erreur : je n'ai pas compris ce que vous recherchiez";
 		}
 
+	}
+
+	public Object update(Ressources r, Object param) {
+		if(r.equals(Ressources.utilisateur)){
+			daoUser.update((Utilisateur)param);
+		}
+		return null;
+	}
+
+	@Override
+	public void add(Ressources r, Object o) {
+		if(r.equals(Ressources.utilisateur)){
+			Utilisateur uti = (Utilisateur)o;
+			Utilisateur user = daoUser.get(uti.getIpAdresse());
+			
+			if(user==null){
+				user = new Utilisateur();
+				user.setDateDerniereConnection(new Date());
+				user.setIpAdresse(uti.getIpAdresse());
+				daoUser.add(user);
+			}
+			else{
+				user.setDateDerniereConnection(new Date());
+				daoUser.update(user);
+			}
+		}
+		
 	}
 }

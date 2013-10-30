@@ -12,6 +12,7 @@ import javax.ejb.Local;
 @Local
 public interface GestionnaireRessource {
 
-	public Object get(Ressources r, String param);
-	
+	public Object get(Ressources r, String... params);
+	public Object update(Ressources r,Object o);
+	public void add(Ressources r,Object a);	
 }

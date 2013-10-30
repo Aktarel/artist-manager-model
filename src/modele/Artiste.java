@@ -12,7 +12,9 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
+import javax.persistence.Transient;
 
 import org.hibernate.annotations.Sort;
 import org.hibernate.annotations.SortType;
@@ -58,8 +60,22 @@ public class Artiste{
 	@Sort(type = SortType.NATURAL) 
 	private SortedSet<Evenement> listeEvenement = new ConcurrentSkipListSet<Evenement>();
 	
-	private long popularity;
+	@ManyToMany(mappedBy="favoris",fetch=FetchType.EAGER)
+	private Set<Utilisateur> listeFans = new HashSet<Utilisateur>();
+
+	@Transient
+	private long nbFans;
 	
+	public Set<Utilisateur> getListeFans() {
+		return listeFans;
+	}
+
+	public void setListeFans(Set<Utilisateur> listeFans) {
+		this.listeFans = listeFans;
+	}
+
+	private long popularity;
+
 	public SortedSet<Evenement> getListeEvenement() {
 		return listeEvenement;
 	}
@@ -73,9 +89,12 @@ public class Artiste{
 		this.setDescription(description2);
 
 	}
-
-	public Artiste() {
+	public Artiste(String nom, long popularity,long fans) {
+		this.setNom(nom);
+		this.setPopularity(popularity);
+		this.setNbFans(fans);
 	}
+
 
 	public String getDescription() {
 		return description;
@@ -100,7 +119,6 @@ public class Artiste{
 				+ " \n " + "mes buzz : " + sb.toString() + " \n";
 
 	}
-
 	public Set<Image> getListeImage() {
 		return listeImage;
 	}
@@ -172,11 +190,22 @@ public class Artiste{
 		popularity++;
 	}
 
-	public Artiste(String nom, long popularity) {
-		super();
-		this.nom = nom;
-		this.popularity = popularity;
+
+	public void addFan(Utilisateur u){
+		listeFans.add(u);
 	}
 
+	public Artiste() {
+	}
+
+	public long getNbFans() {
+		return nbFans;
+	}
+
+	public void setNbFans(long nbFans) {
+		this.nbFans = nbFans;
+	}
+	
+	
 	
 }
