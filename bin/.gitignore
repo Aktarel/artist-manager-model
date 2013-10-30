@@ -1,4 +1,7 @@
+/client
+/clientrest
 /dao
+/generated
 /manager
 /modele
-/clientrest
+/org

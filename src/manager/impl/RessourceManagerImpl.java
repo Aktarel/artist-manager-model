@@ -52,7 +52,8 @@ public class RessourceManagerImpl implements GestionnaireRessource {
 		if(r.equals(Ressources.artiste)){
 			Artiste a = unDaoArtiste.getUnArtiste(param);
 			if(a !=null ){
-				a.incrementPopularity();
+				if(params.length==2 && params[1]=="view")
+					a.incrementPopularity();
 				unDaoArtiste.update(a);
 				return a;
 			}
